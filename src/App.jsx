@@ -9,7 +9,7 @@ function App() {
         <Route index element={<BarcodeScanner />} />
         <Route path="about" element={<GenerateBarCode />} />
 {/* 
-        <Route element={<AuthLayout />}>
+        <Route element={<AuthLayout  />}>
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
         </Route>
